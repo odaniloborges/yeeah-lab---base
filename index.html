@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yeeah lab</title>
+  <link rel="stylesheet" type="text/css" href="src/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <h1 class="font-title display-5 color-especial pl-5" href="#">Yeeah Lab</h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end pr-5" id="navbarNavAltMarkup">
+        <ul class="navbar-nav ">
+          <li><a class="nav-item nav-link active" href="#">Home <span class="sr-only">(Página atual)</span></a></li>
+          <li><a class="nav-item nav-link" href="#">Destaques</a></li>
+          <li><a class="nav-item nav-link" href="#">Preços</a></li>
+          <li><a class="nav-item nav-link" data-toggle="modal" data-target="#Modal-contato" href="#">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <Section>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item image-carossel active">
+            <img src="src/img/carossel01.jpg" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="font-title">Aprender programação do Front ao Back-end!</h2>
+            </div> 
+          </div>
+          <div class="carousel-item image-carossel">
+            <img src="src/img/carossel02.jpg" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="font-title">Placas e Robótica</h2>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    </Section>
+
+    <section>
+      <h1 class="text-center font-title color-especial pt-5">Tudo para você estar em dia com a Tecnologia</h1>
+      <p class="text-center text-secondary pb-5">Temos artigos, publicações e cursos que nos deixam por dentro da nossa paixão por tecnologias</p>
+    </section>
+
+    <section class="conteiner-fluid bg-light">
+      <div class="row d-flex justify-content-center">
+
+        <article class="card border-color-especial card-width p-0 m-3 col-12 col-md-3" >
+          <img class="card-img-top card-posicao-imagem" src="src/img/receita-abacate.jpg" alt="Imagem de capa do card">
+          <div class="card-body ">
+            <h5 class="card-title">Tigela de abacate</h5>
+            <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+            <a href="#" class="btn btn-color-especial">Veja mais</a>
+          </div>
+        </article>
+
+        <article class="card border-color-especial card-width p-0 m-3 col-12 col-md-3">
+          <img class="card-img-top card-posicao-imagem" src="src/img/receita-kiwi.jpg" alt="Imagem de capa do card">
+          <div class="card-body ">
+            <h5 class="card-title">Salada de kiwi</h5>
+            <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+            <a href="#" class="btn btn-color-especial">Veja mais</a>
+          </div>
+        </article>
+
+        <article class="card border-color-especial card-width p-0 m-3 col-12 col-md-3">
+          <img class="card-img-top card-posicao-imagem" src="src/img/receita-mix.jpg" alt="Imagem de capa do card">
+          <div class="card-body ">
+            <h5 class="card-title">Mix de vegetais</h5>
+            <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+            <a href="#" class="btn btn-color-especial">Veja mais</a>
+          </div>
+        </article>
+
+        <article class="card border-color-especial card-width p-0 m-3 col-12 col-md-3">
+          <img class="card-img-top card-posicao-imagem" src="src/img/receita-pimentoes.jpg" alt="Imagem de capa do card">
+          <div class="card-body ">
+            <h5 class="card-title">Pimentões à Juliana</h5>
+            <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+            <a href="#" class="btn btn-color-especial">Veja mais</a>
+          </div>
+        </article>
+
+        <article class="card border-color-especial card-width p-0 m-3 col-12 col-md-3">
+          <img class="card-img-top card-posicao-imagem" src="src/img/receita-oriental.jpg" alt="Imagem de capa do card">
+          <div class="card-body ">
+            <h5 class="card-title">Prato oriental</h5>
+            <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+            <a href="#" class="btn btn-color-especial">Veja mais</a>
+          </div>
+        </article>
+
+        <article class="card border-color-especial card-width p-0 m-3 col-12 col-md-3">
+          <img class="card-img-top card-posicao-imagem" src="src/img/receita-beterrabas.jpg" alt="Imagem de capa do card">
+          <div class="card-body ">
+            <h5 class="card-title">Beterrabas assadas</h5>
+            <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+            <a href="#" class="btn btn-color-especial">Veja mais</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div class="modal fade" id="Modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <dialog class="modal-content">
+        <header class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Entre em contato</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </header>
+        <main class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="formGroupExampleInput">Nome</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="insira seu nome">
+            </div>         
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email de Contato</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Deixe seu comentário</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </form>
+        </main>
+        <footer class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-color-especial">Save changes</button>
+        </footer>
+      </dialog>
+    </div>
+  </div>
+
+  <footer class="bg-secondary d-flex justify-content-center">
+   <p class="text-light m-3 text-center">contato: <a class="text-light" href="mailto:email@frutafruto.com.br">email@frutafruto.com.br</a></p>
+  </footer>
+  <script src=""></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

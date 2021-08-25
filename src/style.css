@@ -1,0 +1,30 @@
+.font-title{
+    font-family: 'Lobster', cursive;
+}
+
+.color-especial{
+    color: darkred!important;
+}
+
+.image-carossel{
+    object-fit: cover;
+    height: 500px;
+}
+
+.btn-color-especial{
+    background-color: darkred;
+    color: white;
+}
+
+.border-color-especial{
+    border-color: black;
+}
+
+.card-posicao-imagem{
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-width{
+    max-width: 18rem;
+}
